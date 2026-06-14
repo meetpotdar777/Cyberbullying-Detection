@@ -35,6 +35,15 @@ The architecture scales through four progressive operational phases:
 
 ---
 
+## 🛠️ Tech Stack & Dependencies
+
+- **Core Language Engine**: Python 3.8+
+- **Data Architecture Tools**: `Pandas`, `NumPy`
+- **Text Processing & ML Frameworks**: `Scikit-learn`, `NLTK`, `Joblib`
+- **Underlying Conceptual Models**: Logistic Regression, Term Frequency-Inverse Document Frequency (TF-IDF)
+
+---
+
 ## 🛠️ Project Directory Layout
 
 ```text
@@ -50,26 +59,57 @@ The architecture scales through four progressive operational phases:
 
 ---
 
-## 🚀 Local Deployment Lifecycle
+## 🚀 Getting Started
 
-### 📦 Dependencies Setup
+### 📋 Prerequisites
 
-Isolate your localized virtual environment and execute:
+Verify your local environment has Python and package management managers configured:
 
+```bash
+python --version
+pip --version
+
+```
+
+### ⚙️ Installation & Workspace Setup
+
+1. **Clone the Repository**:
+```bash
+git clone [https://github.com/meetpotdar777/Cyberbullying-Detection.git](https://github.com/meetpotdar777/Cyberbullying-Detection.git)
+cd Cyberbullying-Detection
+```
+
+2. **Set Up a Virtual Environment**:
+```bash
+# Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+# Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+3. **Install Package Requirements**:
 ```bash
 pip install pandas numpy scikit-learn joblib nltk
 
 ```
 
-### ⚙️ Executing the Scripts
+---
 
-Each script runs standalone. By default, the latest pipeline checks for existing cached serialization artifacts before compiling data or falling back onto its factory engines:
+## 🖥️ Running the Application Pipelines
+
+Each script can execute standalone. The underlying codebase incorporates smart data checkpoint lookups to eliminate repetitive text vector re-computations.
 
 ```bash
-# To launch the full synthetic asset matrix engine alongside advanced lemmatizers:
+# Execute the latest ingestion pipeline featuring synthetic template generation:
 python Cyberbullying_Detection_NLP_Project_Version_4.0.py
 
 ```
+
+---
 
 ### 💾 Model Serialization Strategy
 
@@ -96,8 +136,20 @@ if os.path.exists(MODEL_FILE) and os.path.exists(VECTORIZER_FILE):
 
 ---
 
+## 🤝 Contributing
+
+Contributions to scale classification accuracy, append comprehensive slang dictionaries, or integrate advanced transformer layers are welcome!
+
+1. **Fork** the project repository.
+2. **Create** your feature branch (`git checkout -b feature/AmazingFeature`).
+3. **Commit** your refinements (`git commit -m 'Add some AmazingFeature'`).
+4. **Push** to the origin branch (`git push origin feature/AmazingFeature`).
+5. Open a **Pull Request**.
+
+---
+
 ## 📄 License
 
-Distributed under the MIT License.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
