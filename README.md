@@ -4,6 +4,9 @@ An iterative, production-scalable Natural Language Processing (NLP) framework en
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/ML%2FDL-Scikit--learn%20%2F%20NLTK-orange.svg?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org/)
+[![NLP - NLTK](https://img.shields.io/badge/NLP-NLTK-green?style=for-the-badge&logo=analyzer)](https://www.nltk.org/)
+[![Data Pipeline - Pandas](https://img.shields.io/badge/Pipeline-Pandas-150458?style=for-the-badge&logo=pandas)](https://pandas.pydata.org/)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge)](https://github.com/psf/black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
